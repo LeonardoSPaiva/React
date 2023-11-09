@@ -1,5 +1,6 @@
 import CartWiget from "../CartWidget/CartWidget";
 import Brand from "./Brand";
+import CategoryItem from "./CategoryItem";
 const NavBars = () => {
   return (
     <div>
@@ -10,18 +11,15 @@ const NavBars = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item ">
-                <a class="nav-link text-light" aria-current="page" href="APP.JS">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="APP.JS">Link</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link text-light" href="APP.JS" aria-disabled="true">Disabled</a>
-              </li>
+                      
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <CategoryItem category=" Auriculares"/>
+              <CategoryItem category=" Teclados"/>
+              <CategoryItem category=" Mouses"/>
+              <CategoryItem category=" Microfonos"/>
             </ul>
+            
+
             <div class="d-flex">
               <CartWiget />
             </div>
