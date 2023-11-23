@@ -16,17 +16,18 @@
 .cartImg {
   display: flex;
   align-items: center;
-  margin-right: 10px; /* Ajusta el margen derecho según tus necesidades */
+  margin-right: 10px; 
 }
 
 .cartCount {
-  background-color: red; /* Puedes ajustar el color de fondo según tus preferencias */
+  background-color: rgb(247, 129, 129); 
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   border-radius: 50%;
-  padding:1px 15px; /* Ajusta el padding según tus necesidades */
-  margin-left: 5px; /* Ajusta el margen izquierdo según tus necesidades */
+  padding:1px 6px; 
+  margin-left: 5px; 
+  margin-top: 20px;
 }
 .navbar-nav{
   margin-left: 4rem;
