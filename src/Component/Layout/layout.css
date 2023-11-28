@@ -1,0 +1,62 @@
+
+.ItemCount{
+    display:flex;
+    align-items:center;
+    gap:1rem
+  }
+  
+  .ItemCount .btn{
+    background-color: #61dafb;
+    border: 0;
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    align-items: center;
+  }
+  
+  
+  .cartImg {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+  }
+  
+  .cartCount {
+    background-color: rgb(247, 129, 129); 
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    padding:1px 6px; 
+    margin-left: 5px; 
+    margin-top: 20px;
+  }
+  .navbar-nav{
+    margin-left: 4rem;
+    font-size: 1.2rem;
+  }
+
+  .titulo{
+    margin-top: 5rem;
+  }
+  
+  
+  
+  .collapse ul li{
+    list-style: none; 
+  }
+  
+  .collapse ul li a{
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    color: rgb(236, 234, 232);
+    text-decoration: none;
+   
+  }
+  
