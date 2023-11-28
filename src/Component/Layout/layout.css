@@ -59,4 +59,17 @@
     text-decoration: none;
    
   }
+
+  .navbar {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9); /* Sombra suave */
+  }
+
+
+
+
+  .navbar-nav li:hover {
+    transform: scale(1.1); /* Cambia el tamaño al pasar el ratón */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+    color: #ffc107; /* Cambia el color al pasar el ratón */
+  }
   
