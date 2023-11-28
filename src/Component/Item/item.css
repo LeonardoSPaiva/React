@@ -1,0 +1,41 @@
+/* item.css */
+
+/* Estilos para ItemListContainer */
+.ItemListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; /* Centramos verticalmente los elementos */
+    text-align: center; /* Alineamos el texto al centro */
+}
+
+/* Estilos para ItemList */
+h1.text-center {
+    margin-bottom: 20px;
+}
+
+/* Estilos para Item */
+.card-container {
+    width: 30%; /* Ajustamos el ancho para tres columnas */
+    margin: 10px;
+}
+
+.card {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.btn-primary {
+    display: block;
+    margin-top: auto;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,92 @@
+
+/* Estilos generales para centrar contenido */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para ItemDetailContainer */
+.ItemDetailContainer {
+    text-align: center;
+    margin: 20px auto; /* Centra2 horizontal y espacio en la parte superior e inferior */
+}
+
+/* Estilos para ItemDetail */
+.card {
+    width: 18rem;
+    margin: 20px auto; /* Centra2 horizontal y espacio en la parte superior e inferior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-body {
+    line-height: 0.9; /* espacio entre líneas */
+}
+
+.card-img-top {
+    width: 80%;
+    height: 80%;
+    transition: transform 0.3s; /* transición de 0.3 segundos para el efecto hover */
+}
+
+.card-img-top:hover {
+    transform: scale(1.1); /* aumentam la escala de la imagen al pasar el*/
+}
+
+
+.card-body p {
+    margin-bottom: 10px; /* margen inferior de los párrafos */
+}
+
+/* Estilos para ItemCount */
+.item-count-container {
+    display: flex;
+    flex-direction: row; /* elementos en línea */
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto; /* Centra2 horizontalmente*/
+}
+
+.item-count-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 25px; /*margen entre los botones */
+    display: flex;
+    align-items: center; /* centrado vertical contenido del botón */
+    justify-content: center; /* Centra2 horizontal del contenido del botón */
+}
+
+.item-count-display {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px; /* margen horizontal del texto */
+}
+
+/* Estilos para el botón "Agregar" */
+.add-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px; /* margen superior al contenedor del botón "Agregar" */
+}
+
+.add-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 1px; /* margen entre el botón de agregar */
+}
+
+
