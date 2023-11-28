@@ -25,7 +25,7 @@ h1.text-center {
     text-align: center;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Agrega sombra */
     border-radius: 8px; /* Bordes redondeados para un aspecto más suave */
     transition: box-shadow 0.3s ease; /* Agrega una transición suave a la sombra */
     background-color: #258beb13; /* Color de fondo */
@@ -33,7 +33,7 @@ h1.text-center {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Cambia la sombra al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9); /* Cambia la sombra al pasar el ratón */
 }
 
 .card-img-top {
